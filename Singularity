@@ -6,8 +6,6 @@ From: poldracklab/fmriprep:latest
 
 %runscript
     exec /usr/local/miniconda/bin/fmriprep "$@"
-    export FMRIPREP_DIR=/usr/local/miniconda/bin
-    export space_variant=MNI152NLin2009cAsym
     
 %environment
 
